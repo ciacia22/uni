@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
     
+  resources :bocconis
+  resources :universities
   resources :contents
   devise_for :users
     
